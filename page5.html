@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hehe Baat 💕</title>
+
+<style>
+body{
+  margin:0;
+  font-family: Arial;
+  text-align:center;
+  background:#fff0f5;
+  overflow:hidden;
+}
+
+h1{
+  font-size:48px;
+  color:#ff4d88;
+  margin-top:60px;
+}
+
+.story{
+  max-width:900px;
+  margin:auto;
+  font-size:24px;
+  padding:30px;
+  line-height:1.8;
+}
+
+button{
+  padding:15px 30px;
+  font-size:22px;
+  background:#ff66a3;
+  color:white;
+  border:none;
+  border-radius:20px;
+  margin:20px;
+}
+
+.heart{
+  position:absolute;
+  animation: float 6s linear infinite;
+}
+
+@keyframes float{
+  0%{transform:translateY(100vh);}
+  100%{transform:translateY(-10vh);}
+}
+</style>
+</head>
+
+<body>
+
+<h1>Hehe 😁</h1>
+
+<div class="story">
+Acha humme pta chala jai maarta hai apko hmmmmmmmmmmmm 😁😁  
+par yeh bhi toh dekho isliyee marta kyun ki aap se pyaar karta woh sabse jyada 😁😁  
+aur koi karega bhi nhi tere ko jitna jai karta 😤😤🧿🧿  
+
+competition nhi hai 🧿🧿  
+bich mein todha todha dantna toh parta hai pidduu ko 😤  
+bakii mera pyaara bachaa hai 😁😁  
+sonaaaa saa cutuuuuuu sa shotu sa sweet saa only meraaaa 😁😁
+</div>
+
+<a href="page6.html">
+<button>Yayyyyy ➜</button>
+</a>
+
+<script>
+for(let i=0;i<30;i++){
+  let heart=document.createElement("div");
+  heart.innerHTML="💗";
+  heart.className="heart";
+  heart.style.left=Math.random()*100+"vw";
+  heart.style.fontSize=(20+Math.random()*30)+"px";
+  heart.style.animationDuration=(3+Math.random()*5)+"s";
+  document.body.appendChild(heart);
+}
+</script>
+
+</body>
+</html>
