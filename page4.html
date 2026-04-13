@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Serious Baat</title>
+
+<style>
+body{
+  margin:0;
+  font-family: Arial;
+  text-align:center;
+  background:#fff0f5;
+  overflow:hidden;
+}
+
+h1{
+  font-size:48px;
+  color:#ff4d88;
+  margin-top:60px;
+}
+
+.story{
+  max-width:900px;
+  margin:auto;
+  font-size:24px;
+  padding:30px;
+  line-height:1.8;
+}
+
+button{
+  padding:15px 30px;
+  font-size:22px;
+  background:#ff66a3;
+  color:white;
+  border:none;
+  border-radius:20px;
+  margin:20px;
+}
+
+.heart{
+  position:absolute;
+  animation: float 6s linear infinite;
+}
+
+@keyframes float{
+  0%{transform:translateY(100vh);}
+  100%{transform:translateY(-10vh);}
+}
+</style>
+</head>
+
+<body>
+
+<h1>Serious Baat 💖</h1>
+
+<div class="story">
+kal raat ko jaise tere ko pta kaise mai chid gya tha bilkul hi 🥹🥹  
+mujhe ptaa tunne intentionally kuch bhi nhi kiyaa but mujhe woh sab par ke bas mai chid gyaa ganda wala aur isme meri bhi nhi koi galti huhh 😤😤  
+chidunga hi itni sundar gf ho aur mai chidunga nhi toh hor kya hoga fir 😤  
+bakii I lovee youuuu aur uski aisi ki taisi woh toh namuna sune ga kisi din 😇😇  
+
+kabhi kabhi sochta hun itna patience level hona bhi acha nhi hotaa chalo shoro meri nitya cutee sii huhh 🙂‍↔️🙂‍↔️  
+aayi badi hihiii I loveee youu soooooo muchhhhh 💖  
+
+ek baat bta deta hun raat ko bhi btayi thi aisi cheezein dekh ke mai jal jata hun sidhi si baat 😤  
+toh uss time pe mujhe nhi ptaa mujhe nityaa se zyada pyaar chahiye bohot zyada 🥹🥹  
+
+aur aurr yeh jo emoji nhi use karna maar khayegi mere se agar nhi use kiya toh aayi badi 😇😇
+</div>
+
+<a href="page5.html">
+<button>Jai Maarta Hai ➜</button>
+</a>
+
+<script>
+for(let i=0;i<30;i++){
+  let heart=document.createElement("div");
+  heart.innerHTML="💗";
+  heart.className="heart";
+  heart.style.left=Math.random()*100+"vw";
+  heart.style.fontSize=(20+Math.random()*30)+"px";
+  heart.style.animationDuration=(3+Math.random()*5)+"s";
+  document.body.appendChild(heart);
+}
+</script>
+
+</body>
+</html>
