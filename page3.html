@@ -1,0 +1,60 @@
+<!DOCTYPE html><html>
+<head>
+<title>Our First Meet Continued</title><style>
+body{
+  margin:0;
+  font-family: Arial;
+  text-align:center;
+  background:#fff0f5;
+  overflow:hidden;
+}
+
+h1{
+  font-size:48px;
+  color:#ff4d88;
+  margin-top:60px;
+}
+
+.story{
+  max-width:900px;
+  margin:auto;
+  font-size:24px;
+  padding:30px;
+  line-height:1.8;
+}
+
+button{
+  padding:15px 30px;
+  font-size:22px;
+  background:#ff66a3;
+  color:white;
+  border:none;
+  border-radius:20px;
+  margin:20px;
+}
+
+.heart{
+  position:absolute;
+  animation: float 6s linear infinite;
+}
+
+@keyframes float{
+  0%{transform:translateY(100vh);} 
+  100%{transform:translateY(-10vh);} 
+}
+</style></head><body><h1>Still Our First Meet 💕</h1><div class="story">
+Fir fir kya hi bolun uss time pe mnn tha scooty pe baitha ke tere ko apne saath le jaun kahin jahan koi bhi disturb na karen jaise teri didi kar rhi thi😤😤 chalo milwaya bhi usne hi hai isliye jane diya😁😁 meri cutuuuuu nityaa baki fir uske baad toh tere ko ptaa hihi saath mein baithna hug kissi🫣🫣🤭🤭 best dayy of my life aur na aur naaa bohot zyada sundar hai tuu😭😭🧿🧿 mwahhhhh sonaaaa bacha mera 💖
+</div><a href="page4.html">
+<button>Hehe ➜</button>
+</a><script>
+for(let i=0;i<30;i++){
+  let heart=document.createElement("div");
+  heart.innerHTML="💗";
+  heart.className="heart";
+  heart.style.left=Math.random()*100+"vw";
+  heart.style.fontSize=(20+Math.random()*30)+"px";
+  heart.style.animationDuration=(3+Math.random()*5)+"s";
+  document.body.appendChild(heart);
+}
+</script></body>
+</html>
