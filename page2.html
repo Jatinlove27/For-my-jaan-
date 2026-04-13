@@ -1,0 +1,60 @@
+<!DOCTYPE html><html>
+<head>
+<title>Our First Meet</title><style>
+body{
+  margin:0;
+  font-family: Arial;
+  text-align:center;
+  background:#fff0f5;
+  overflow:hidden;
+}
+
+h1{
+  font-size:48px;
+  color:#ff4d88;
+  margin-top:60px;
+}
+
+.story{
+  max-width:900px;
+  margin:auto;
+  font-size:24px;
+  padding:30px;
+  line-height:1.8;
+}
+
+button{
+  padding:15px 30px;
+  font-size:22px;
+  background:#ff66a3;
+  color:white;
+  border:none;
+  border-radius:20px;
+  margin:20px;
+}
+
+.heart{
+  position:absolute;
+  animation: float 6s linear infinite;
+}
+
+@keyframes float{
+  0%{transform:translateY(100vh);} 
+  100%{transform:translateY(-10vh);} 
+}
+</style></head><body><h1>Our First Meet 💕</h1><div class="story">
+Ummmmmm yeh din toh mera favourite sa ban gya hai roz subah uth ta hun toh sabse phele yeh hi sab yaad aata mere ko jab mai tere se milne aa rha thaa toh teri didi bhi thi jiski wazah se mai sochi ja rha tha ki milunga kaise baat karungaa yeh woh aise waise😭😭 fir hum jab ruke toh uss time pe toh itna shy feel kar rha thaa mai😭😭 par fir maine tere ko dekha mujhe laga nhi thaa ki nitya bhi aise shrmayegi🫶🫶 kasam se itni pyaari lag rhi thi naa😭😭 tab tere ko dekh ke mai todha thik hogya ki mai akela nhi hun🤭🤭 aur aurr outfit it was awesome 🫶🫶😭😭 yeh mere dimaag se baat nhi jati nitya mere liyee jo maine bola waise ready hoke aayi😁😁 lagta jyada lamba hogya next page pe chalte haii 💖
+</div><a href="page3.html">
+<button>Chalooo ➜</button>
+</a><script>
+for(let i=0;i<30;i++){
+  let heart=document.createElement("div");
+  heart.innerHTML="💗";
+  heart.className="heart";
+  heart.style.left=Math.random()*100+"vw";
+  heart.style.fontSize=(20+Math.random()*30)+"px";
+  heart.style.animationDuration=(3+Math.random()*5)+"s";
+  document.body.appendChild(heart);
+}
+</script></body>
+</html>
